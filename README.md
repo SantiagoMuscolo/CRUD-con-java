@@ -28,3 +28,23 @@ Este proyecto es una API que proporciona operaciones CRUD (Crear, Leer, Actualiz
     "lastName": "Apellido",
     "email": "correo@example.com"
   }
+
+  ### Actualizar un usuario por ID
+
+- **URL:** `/user/{id}`
+- **Método HTTP:** PUT
+- **Cuerpo de la solicitud (JSON):**
+  ```json
+  {
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "correo@example.com"
+  }
+
+### Eliminar un usuario por ID
+
+- **URL:** `/user/{id}`
+- **Método HTTP:** DELETE
+- **Parámetros de URL:** `id` (ID del usuario)
+- **Descripción:** Retorna los detalles de un usuario específico según su ID.
+
