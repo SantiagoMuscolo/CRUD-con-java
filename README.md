@@ -29,7 +29,7 @@ Este proyecto es una API que proporciona operaciones CRUD (Crear, Leer, Actualiz
     "email": "correo@example.com"
   }
 
-  ### Actualizar un usuario por ID
+### Actualizar un usuario por ID
 
 - **URL:** `/user/{id}`
 - **Método HTTP:** PUT
